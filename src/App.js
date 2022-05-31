@@ -1,9 +1,12 @@
 import './App.css';
+import Router from './assets/router/Router';
+import Header from './components/layout/Header';
 
 function App() {
   return (
-    <div className="app-wrapper">
-      
+    <div>
+      <Header />
+      <Router />
     </div>
   );
 }
