@@ -8,7 +8,8 @@ export const FilmProvider = ({ children }) =>
     const initState = {
         films: [],
         genres:[],
-        searchResult:[]
+        searchResult: [],
+        animeSpin:false,
     }   
 
     const [filmState, setFilmState] = useReducer(reducer, initState);

@@ -1,0 +1,21 @@
+.film-container {
+    width: 100%;
+
+    .title {
+        background-color: rgb(198, 0, 185);
+        font-family: Poppins, sans-serif;
+        font-weight: bold;
+    }
+
+    .header-container {
+        .header-poster {
+
+            figure {
+                img {
+                    border: 2px solid #fff;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}

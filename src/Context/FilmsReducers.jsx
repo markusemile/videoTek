@@ -16,6 +16,11 @@ export default function reducer(state,action){
                 ...state,
                 searchResult: []
             }
+        case 'SET_SPINNER':
+            return {
+                ...state,
+                animeSpin:action.payload
+            }
         default:
             return state;
     }

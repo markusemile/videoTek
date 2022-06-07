@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link,NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
     return (
-        <nav className=' mx-auto'>
+        <nav className=' mx-auto w-full md:w-96'>
             <div className="flex justify-center gap-5">
                 <NavLink to="dashboard">Mes films</NavLink>
                 <NavLink to="search">Chercher</NavLink>
@@ -12,5 +12,4 @@ function Navbar() {
         </nav>
   )
 }
-
 export default Navbar

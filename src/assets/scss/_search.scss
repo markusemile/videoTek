@@ -4,8 +4,13 @@ form {
 
 .display-result {
     .card {
+        border-radius: 10px;
+        ;
+
         figure {
-            img {}
+            img {
+                border-radius: 10px;
+            }
         }
     }
 }

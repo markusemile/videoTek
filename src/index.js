@@ -5,7 +5,9 @@ import App from './App';
 import { FilmProvider } from './Context/FilmContext';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
 
     <FilmProvider>
